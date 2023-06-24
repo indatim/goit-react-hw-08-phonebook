@@ -33,24 +33,6 @@ const Contacts = () => {
       {isLoading && !error && <Loader />}
       <ContactList />
     </Container>
-
-    // <ThemeProvider theme={theme}>
-    //   <Container component="main" maxWidth="xs">
-    //     <Box
-    //       sx={{
-    //         marginTop: 8,
-    //         display: 'flex',
-    //         flexDirection: 'column',
-    //         alignItems: 'center',
-    //       }}
-    //     >
-    //       <h2>Contacts</h2>
-    //       <ContactForm />
-    //       <Filter />
-    //       <ContactList />
-    //     </Box>
-    //   </Container>
-    // </ThemeProvider>
   );
 };
 

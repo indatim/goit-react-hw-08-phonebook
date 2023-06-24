@@ -9,7 +9,6 @@ import { Header } from './Header/Header';
 import { PrivateRoute } from './PrivateRoute/PrivateRoute';
 import { Loader } from './Loader/Loader';
 
-
 const Login = lazy(() => import('./pages/Login'));
 const Home = lazy(() => import('./pages/Home'));
 const Register = lazy(() => import('./pages/Register'));
