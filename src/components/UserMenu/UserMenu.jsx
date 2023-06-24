@@ -1,4 +1,4 @@
-import { Menu, User, ContactNum, Link } from './UserMenuStyled';
+import { Menu, User, ContactCount, Link } from './UserMenuStyled';
 import { useAuth } from 'components/hooks/useAuth';
 import { useSelector, useDispatch } from 'react-redux';
 import { logOut } from 'redux/auth/operations';
@@ -15,9 +15,9 @@ export const UserMenu = () => {
       <User>
         <b>Hello,</b> {user.name}.
       </User>
-      <ContactNum>
+      <ContactCount>
         You have <b>{contacts.length}</b> contacts.
-      </ContactNum>
+      </ContactCount>
       <Link type="button" onClick={() => dispatch(logOut())} to="/">
         <ImExit style={{ color: 'white', fontSize: '30' }} />
         Logout

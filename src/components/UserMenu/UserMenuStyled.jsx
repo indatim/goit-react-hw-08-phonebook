@@ -18,7 +18,7 @@ export const User = styled.span`
   font-weight: 400;
 `;
 
-export const ContactNum = styled.span`
+export const ContactCount = styled.span`
   gap: 12px;
   padding: 8px 0;
   color: white;

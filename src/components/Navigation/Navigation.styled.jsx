@@ -8,6 +8,7 @@ export const Menu = styled.div`
   gap: 12px;
   padding: 8px 0;
   margin-bottom: 16px;
+  margin-left: 16px;
 
   > nav {
     display: flex;

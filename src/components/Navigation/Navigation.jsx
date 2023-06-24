@@ -1,4 +1,3 @@
-// import { NavLink } from 'react-router-dom';
 import { useAuth } from 'components/hooks/useAuth';
 import { FaHome } from 'react-icons/fa';
 import { AiFillContacts } from 'react-icons/ai';
@@ -9,7 +8,6 @@ export const Navigation = () => {
 
   return (
     <Menu>
-      <nav>
         <Link to="/">
           <FaHome
             style={{ color: 'white', fontSize: '30', marginRight: '5' }}
@@ -24,7 +22,6 @@ export const Navigation = () => {
             Contacts
           </Link>
         )}
-      </nav>
     </Menu>
   );
 };

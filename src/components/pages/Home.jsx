@@ -1,4 +1,5 @@
-import { Box, Typography } from '@mui/material';
+import { NavLink } from 'react-router-dom';
+import { Box, Typography, Button } from '@mui/material';
 import ParticlesBg from 'particles-bg';
 import { FcContacts } from 'react-icons/fc';
 
@@ -45,6 +46,11 @@ const Home = () => {
       >
         Access your contacts from any device.
       </Typography>
+      <NavLink to="/register">
+        <Button type="submit" variant="contained" sx={{ mt: 3, mb: 2 }}>
+          Sign Up
+        </Button>
+      </NavLink>
     </Box>
   );
 };
