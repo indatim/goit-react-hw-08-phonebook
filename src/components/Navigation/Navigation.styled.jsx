@@ -16,8 +16,8 @@ export const Menu = styled.div`
 
 export const Link = styled(NavLink)`
   display: flex;
-  height: 50px;
-  width: 50px;
+  height: 55px;
+  width: 55px;
   padding: 8px 16px;
   border-radius: 4px;
   text-decoration: none;

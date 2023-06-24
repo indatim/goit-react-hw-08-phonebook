@@ -31,7 +31,7 @@ const Home = () => {
           textAlign: 'center',
         }}
       >
-        Phonebook App is a simple and convenient phone book.
+        Phonebook App is a simple and handy phone book.
       </Typography>
       <Typography
         component="p"
@@ -43,8 +43,7 @@ const Home = () => {
           textAlign: 'center',
         }}
       >
-        Access your
-        contacts from any device you're signed in to.
+        Access your contacts from any device.
       </Typography>
     </Box>
   );

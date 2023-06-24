@@ -3,13 +3,13 @@ import { ContactList } from 'components/ContactList/ContactList';
 import { Filter } from 'components/ContactFilter/ContactFilter';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchContacts } from 'redux/operations';
+import { fetchContacts } from 'redux/contacts/operations';
 
 
 import { Container, PhonebookHeader, ContactsHeader } from '../App.styled';
 import { Loader } from 'components/Loader/Loader';
 import { FaPhoneSquareAlt, FaUser } from 'react-icons/fa';
-import { selectError, selectIsLoading } from 'redux/selectors';
+import { selectError, selectIsLoading } from 'redux/contacts/selectors';
 
 const Contacts = () => {
   const dispatch = useDispatch();

@@ -5,8 +5,8 @@ import {
   ContactFormButton,
 } from './ContactForm.styled';
 import { Report } from 'notiflix/build/notiflix-report-aio';
-import { addContact } from '../../redux/operations';
-import { selectContacts } from 'redux/selectors';
+import { addContact } from 'redux/contacts/operations';
+import { selectContacts } from 'redux/contacts/selectors';
 import { useDispatch, useSelector } from 'react-redux';
 
 export const ContactForm = () => {

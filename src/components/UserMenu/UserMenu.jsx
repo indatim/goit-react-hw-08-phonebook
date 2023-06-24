@@ -3,7 +3,7 @@ import { useAuth } from 'components/hooks/useAuth';
 import { useSelector, useDispatch } from 'react-redux';
 import { logOut } from 'redux/auth/operations';
 import { ImExit } from 'react-icons/im';
-import { selectFilteredContacts } from '../../redux/selectors';
+import { selectFilteredContacts } from 'redux/contacts/selectors';
 
 export const UserMenu = () => {
   const dispatch = useDispatch();

@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { ContactFilterLabel, ContactFilterInput } from './ContactFilter.styled';
 import { useDispatch } from 'react-redux';
-import { setFilter } from '../../redux/filterSlice';
+import { setFilter } from '../../redux/contacts/filterSlice';
 
 
 export const Filter = () => {
